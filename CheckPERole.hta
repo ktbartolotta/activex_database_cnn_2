@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="app/lib/jquery/js/jquery-1.9.1.js"></script>
+    <script src="app/lib/jquery/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <link rel="stylesheet" href="app/lib/jquery/css/le-frog/jquery-ui-1.10.3.custom.min.css" />
+    <script src="app/src/check-pe-roles.js"></script>
+    <style>
+      #roleTable, th, td {
+	border: 1px solid blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <span class="ui-widget">
+      	<label for="person">Person:  </label>
+      	<input id="person" />
+      	<input id="launchButton" for="person" type="button" value="Go"/>
+      	<span id="personId" />
+      </span>
+    </div>
+    <div id="view">
+      <table id="roleTable" style="border: 2px;" />
+    </div>
+  </body>
+
+</html>
